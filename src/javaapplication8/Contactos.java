@@ -11,4 +11,31 @@ package javaapplication8;
  */
 public class Contactos {
     
+    private String dniContacto;
+    private String emailContacto;
+    private String nickUsuario;
+    
+    public void setDniContacto(String dniContactoP){
+        this.dniContacto = dniContactoP;
+    }
+    
+    public String getDniContacto(){
+        return this.dniContacto;
+    }
+    
+    public void setEmailContacto(String emailContactoP){
+        this.emailContacto = emailContactoP;
+    }
+    
+    public String getEmailContacto(){
+        return this.emailContacto;
+    }
+    
+    public void setNickContacto(String nickContactoP){
+        this.nickUsuario = nickContactoP;
+    }
+    
+    public String getNickContacto(){
+        return this.nickUsuario;
+    }
 }
